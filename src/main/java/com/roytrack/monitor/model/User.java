@@ -1,4 +1,4 @@
-package com.jiankong.model;
+package com.roytrack.monitor.model;
 
 import lombok.Getter;
 import lombok.Setter;

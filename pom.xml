@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.jiankong</groupId>
-  <artifactId>jiankong</artifactId>
+  <groupId>com.roytrack</groupId>
+  <artifactId>monitor</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>jiankong Maven Webapp</name>
+  <name>monitor</name>
   <url>http://maven.apache.org</url>
   <properties>
     <logback.version>1.0.13</logback.version>
@@ -19,9 +19,14 @@
   </properties>
   <dependencies>
     <dependency>
-      <groupId>commons-dbcp</groupId>
-      <artifactId>commons-dbcp</artifactId>
-      <version>1.4</version>
+      <groupId>io.dropwizard.metrics</groupId>
+      <artifactId>metrics-core</artifactId>
+      <version>3.1.2</version>
+    </dependency>
+    <dependency>
+      <groupId>io.dropwizard.metrics</groupId>
+      <artifactId>metrics-healthchecks</artifactId>
+      <version>3.1.2</version>
     </dependency>
     <dependency>
       <groupId>ch.qos.logback</groupId>
@@ -141,6 +146,6 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>jiankong</finalName>
+    <finalName>monitor</finalName>
   </build>
 </project>
