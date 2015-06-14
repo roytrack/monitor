@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 import static com.codahale.metrics.MetricRegistry.name;
 
 /**
- * Created by ruanchangming on 2015/6/11.
+ * Created by roytrack on 2015/6/11.
  */
 public class QueueManager {
     private final Queue queue;
