@@ -8,7 +8,7 @@
   <name>monitor</name>
   <url>http://maven.apache.org</url>
   <properties>
-    <logback.version>1.0.13</logback.version>
+    <logback.version>1.2.0</logback.version>
     <slf4j.version>1.7.5</slf4j.version>
     <mybatis.version>3.2.7</mybatis.version>
     <mysql.version>5.1.26</mysql.version>
