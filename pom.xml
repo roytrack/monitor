@@ -11,7 +11,7 @@
     <logback.version>1.0.13</logback.version>
     <slf4j.version>1.7.5</slf4j.version>
     <mybatis.version>3.2.7</mybatis.version>
-    <mysql.version>5.1.26</mysql.version>
+    <mysql.version>8.0.28</mysql.version>
     <mybatis.spring.version>1.1.0</mybatis.spring.version>
     <spring.version>3.2.11.RELEASE</spring.version>
     <commons-lang3.version>3.3.2</commons-lang3.version>
